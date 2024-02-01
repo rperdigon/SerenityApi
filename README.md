@@ -126,7 +126,7 @@ The WebDriver configuration is managed entirely from this file, as illustrated b
 webdriver {
     driver = chrome
 }
-headless.mode = true
+headless.mode = false
 
 chrome.switches="""--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;
                    --disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;
